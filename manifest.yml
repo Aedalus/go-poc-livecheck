@@ -1,0 +1,17 @@
+http_livechecks:
+  - name: google
+    endpoint: https://google.com
+    expected:
+      code: 200
+  - name: bad-google
+    endpoint: https://bad-google.com
+    expected:
+      code: 200
+  - name: stack-overflow
+    endpoint: https://stackoverflow.com
+    expected:
+      code: 200
+  - name: facebook
+    endpoint: https://facebook.com
+    expected:
+      code: 200
